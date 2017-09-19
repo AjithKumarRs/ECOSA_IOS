@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document
+
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Poiret One', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Poiret+One');
+
+
+
+body {
+	
+	color: white;
+	font-family: 'Poiret One', cursive;;
+	background-color: gray;
+}
+
+link{
+	color: darkolivegreen;
+}
+
+b{
+	font-family: 'Hammersmith One', sans-serif;
+	text-align: center;
+	color: darkgreen;
+		
+	
+}
