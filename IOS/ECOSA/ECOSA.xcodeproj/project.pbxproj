@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D24953E208FD35900ACDA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24953D208FD35900ACDA89 /* AppDelegate.swift */; };
+		6D249540208FD35900ACDA89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24953F208FD35900ACDA89 /* ViewController.swift */; };
+		6D249543208FD35900ACDA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D249541208FD35900ACDA89 /* Main.storyboard */; };
+		6D249545208FD35900ACDA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D249544208FD35900ACDA89 /* Assets.xcassets */; };
+		6D249548208FD35900ACDA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D249546208FD35900ACDA89 /* LaunchScreen.storyboard */; };
+		6D249553208FD35A00ACDA89 /* ECOSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D249552208FD35A00ACDA89 /* ECOSATests.swift */; };
+		6D24955E208FD35A00ACDA89 /* ECOSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24955D208FD35A00ACDA89 /* ECOSAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D24954F208FD35A00ACDA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D249532208FD35900ACDA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D249539208FD35900ACDA89;
+			remoteInfo = ECOSA;
+		};
+		6D24955A208FD35A00ACDA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D249532208FD35900ACDA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D249539208FD35900ACDA89;
+			remoteInfo = ECOSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D24953A208FD35900ACDA89 /* ECOSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECOSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D24953D208FD35900ACDA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D24953F208FD35900ACDA89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D249542208FD35900ACDA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D249544208FD35900ACDA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D249547208FD35900ACDA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D249549208FD35900ACDA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D24954E208FD35A00ACDA89 /* ECOSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECOSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D249552208FD35A00ACDA89 /* ECOSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECOSATests.swift; sourceTree = "<group>"; };
+		6D249554208FD35A00ACDA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D249559208FD35A00ACDA89 /* ECOSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECOSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D24955D208FD35A00ACDA89 /* ECOSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECOSAUITests.swift; sourceTree = "<group>"; };
+		6D24955F208FD35A00ACDA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D249537208FD35900ACDA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D24954B208FD35A00ACDA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D249556208FD35A00ACDA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D249531208FD35900ACDA89 = {
+			isa = PBXGroup;
+			children = (
+				6D24953C208FD35900ACDA89 /* ECOSA */,
+				6D249551208FD35A00ACDA89 /* ECOSATests */,
+				6D24955C208FD35A00ACDA89 /* ECOSAUITests */,
+				6D24953B208FD35900ACDA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D24953B208FD35900ACDA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D24953A208FD35900ACDA89 /* ECOSA.app */,
+				6D24954E208FD35A00ACDA89 /* ECOSATests.xctest */,
+				6D249559208FD35A00ACDA89 /* ECOSAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D24953C208FD35900ACDA89 /* ECOSA */ = {
+			isa = PBXGroup;
+			children = (
+				6D24953D208FD35900ACDA89 /* AppDelegate.swift */,
+				6D24953F208FD35900ACDA89 /* ViewController.swift */,
+				6D249541208FD35900ACDA89 /* Main.storyboard */,
+				6D249544208FD35900ACDA89 /* Assets.xcassets */,
+				6D249546208FD35900ACDA89 /* LaunchScreen.storyboard */,
+				6D249549208FD35900ACDA89 /* Info.plist */,
+			);
+			path = ECOSA;
+			sourceTree = "<group>";
+		};
+		6D249551208FD35A00ACDA89 /* ECOSATests */ = {
+			isa = PBXGroup;
+			children = (
+				6D249552208FD35A00ACDA89 /* ECOSATests.swift */,
+				6D249554208FD35A00ACDA89 /* Info.plist */,
+			);
+			path = ECOSATests;
+			sourceTree = "<group>";
+		};
+		6D24955C208FD35A00ACDA89 /* ECOSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D24955D208FD35A00ACDA89 /* ECOSAUITests.swift */,
+				6D24955F208FD35A00ACDA89 /* Info.plist */,
+			);
+			path = ECOSAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D249539208FD35900ACDA89 /* ECOSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D249562208FD35A00ACDA89 /* Build configuration list for PBXNativeTarget "ECOSA" */;
+			buildPhases = (
+				6D249536208FD35900ACDA89 /* Sources */,
+				6D249537208FD35900ACDA89 /* Frameworks */,
+				6D249538208FD35900ACDA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECOSA;
+			productName = ECOSA;
+			productReference = 6D24953A208FD35900ACDA89 /* ECOSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D24954D208FD35A00ACDA89 /* ECOSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D249565208FD35A00ACDA89 /* Build configuration list for PBXNativeTarget "ECOSATests" */;
+			buildPhases = (
+				6D24954A208FD35A00ACDA89 /* Sources */,
+				6D24954B208FD35A00ACDA89 /* Frameworks */,
+				6D24954C208FD35A00ACDA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D249550208FD35A00ACDA89 /* PBXTargetDependency */,
+			);
+			name = ECOSATests;
+			productName = ECOSATests;
+			productReference = 6D24954E208FD35A00ACDA89 /* ECOSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D249558208FD35A00ACDA89 /* ECOSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D249568208FD35A00ACDA89 /* Build configuration list for PBXNativeTarget "ECOSAUITests" */;
+			buildPhases = (
+				6D249555208FD35A00ACDA89 /* Sources */,
+				6D249556208FD35A00ACDA89 /* Frameworks */,
+				6D249557208FD35A00ACDA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D24955B208FD35A00ACDA89 /* PBXTargetDependency */,
+			);
+			name = ECOSAUITests;
+			productName = ECOSAUITests;
+			productReference = 6D249559208FD35A00ACDA89 /* ECOSAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D249532208FD35900ACDA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gerve-Endy Pluviose";
+				TargetAttributes = {
+					6D249539208FD35900ACDA89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6D24954D208FD35A00ACDA89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D249539208FD35900ACDA89;
+					};
+					6D249558208FD35A00ACDA89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D249539208FD35900ACDA89;
+					};
+				};
+			};
+			buildConfigurationList = 6D249535208FD35900ACDA89 /* Build configuration list for PBXProject "ECOSA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D249531208FD35900ACDA89;
+			productRefGroup = 6D24953B208FD35900ACDA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D249539208FD35900ACDA89 /* ECOSA */,
+				6D24954D208FD35A00ACDA89 /* ECOSATests */,
+				6D249558208FD35A00ACDA89 /* ECOSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D249538208FD35900ACDA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D249548208FD35900ACDA89 /* LaunchScreen.storyboard in Resources */,
+				6D249545208FD35900ACDA89 /* Assets.xcassets in Resources */,
+				6D249543208FD35900ACDA89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D24954C208FD35A00ACDA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D249557208FD35A00ACDA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D249536208FD35900ACDA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D249540208FD35900ACDA89 /* ViewController.swift in Sources */,
+				6D24953E208FD35900ACDA89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D24954A208FD35A00ACDA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D249553208FD35A00ACDA89 /* ECOSATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D249555208FD35A00ACDA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D24955E208FD35A00ACDA89 /* ECOSAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D249550208FD35A00ACDA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D249539208FD35900ACDA89 /* ECOSA */;
+			targetProxy = 6D24954F208FD35A00ACDA89 /* PBXContainerItemProxy */;
+		};
+		6D24955B208FD35A00ACDA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D249539208FD35900ACDA89 /* ECOSA */;
+			targetProxy = 6D24955A208FD35A00ACDA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D249541208FD35900ACDA89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D249542208FD35900ACDA89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D249546208FD35900ACDA89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D249547208FD35900ACDA89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D249560208FD35A00ACDA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D249561208FD35A00ACDA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D249563208FD35A00ACDA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Endy.ECOSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D249564208FD35A00ACDA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Endy.ECOSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D249566208FD35A00ACDA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Endy.ECOSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECOSA.app/ECOSA";
+			};
+			name = Debug;
+		};
+		6D249567208FD35A00ACDA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Endy.ECOSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECOSA.app/ECOSA";
+			};
+			name = Release;
+		};
+		6D249569208FD35A00ACDA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Endy.ECOSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ECOSA;
+			};
+			name = Debug;
+		};
+		6D24956A208FD35A00ACDA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ECOSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Endy.ECOSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ECOSA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D249535208FD35900ACDA89 /* Build configuration list for PBXProject "ECOSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D249560208FD35A00ACDA89 /* Debug */,
+				6D249561208FD35A00ACDA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D249562208FD35A00ACDA89 /* Build configuration list for PBXNativeTarget "ECOSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D249563208FD35A00ACDA89 /* Debug */,
+				6D249564208FD35A00ACDA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D249565208FD35A00ACDA89 /* Build configuration list for PBXNativeTarget "ECOSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D249566208FD35A00ACDA89 /* Debug */,
+				6D249567208FD35A00ACDA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D249568208FD35A00ACDA89 /* Build configuration list for PBXNativeTarget "ECOSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D249569208FD35A00ACDA89 /* Debug */,
+				6D24956A208FD35A00ACDA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D249532208FD35900ACDA89 /* Project object */;
+}
